@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		E1AB53D2208051260099D0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB53D1208051260099D0F3 /* AppDelegate.swift */; };
-		E1AB53D4208051260099D0F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB53D3208051260099D0F3 /* ViewController.swift */; };
 		E1AB53D7208051260099D0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AB53D5208051260099D0F3 /* Main.storyboard */; };
 		E1AB53D9208051270099D0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AB53D8208051270099D0F3 /* Assets.xcassets */; };
 		E1AB53DC208051270099D0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AB53DA208051270099D0F3 /* LaunchScreen.storyboard */; };
+		E1AB53E6208059680099D0F3 /* Home-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB53E4208059680099D0F3 /* Home-25.png */; };
+		E1AB53E7208059680099D0F3 /* Calendar-25.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB53E5208059680099D0F3 /* Calendar-25.png */; };
+		E1AB53E920805DE40099D0F3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB53E820805DE40099D0F3 /* HomeViewController.swift */; };
+		E1AB53EB2080618B0099D0F3 /* attachment.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB53EA2080618B0099D0F3 /* attachment.png */; };
+		E1AB53ED208061930099D0F3 /* globe-grid.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB53EC208061930099D0F3 /* globe-grid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1AB53CE208051260099D0F3 /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AB53D1208051260099D0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1AB53D3208051260099D0F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1AB53D6208051260099D0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1AB53D8208051270099D0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1AB53DB208051270099D0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1AB53DD208051270099D0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AB53E4208059680099D0F3 /* Home-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-25.png"; sourceTree = "<group>"; };
+		E1AB53E5208059680099D0F3 /* Calendar-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar-25.png"; sourceTree = "<group>"; };
+		E1AB53E820805DE40099D0F3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E1AB53EA2080618B0099D0F3 /* attachment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attachment.png; sourceTree = "<group>"; };
+		E1AB53EC208061930099D0F3 /* globe-grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-grid.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				E1AB53D1208051260099D0F3 /* AppDelegate.swift */,
-				E1AB53D3208051260099D0F3 /* ViewController.swift */,
 				E1AB53D5208051260099D0F3 /* Main.storyboard */,
+				E1AB53E820805DE40099D0F3 /* HomeViewController.swift */,
 				E1AB53D8208051270099D0F3 /* Assets.xcassets */,
 				E1AB53DA208051270099D0F3 /* LaunchScreen.storyboard */,
 				E1AB53DD208051270099D0F3 /* Info.plist */,
+				E1AB53E3208059680099D0F3 /* icons */,
 			);
 			path = TabBarDemo;
+			sourceTree = "<group>";
+		};
+		E1AB53E3208059680099D0F3 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB53E4208059680099D0F3 /* Home-25.png */,
+				E1AB53EC208061930099D0F3 /* globe-grid.png */,
+				E1AB53EA2080618B0099D0F3 /* attachment.png */,
+				E1AB53E5208059680099D0F3 /* Calendar-25.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AB53EB2080618B0099D0F3 /* attachment.png in Resources */,
 				E1AB53DC208051270099D0F3 /* LaunchScreen.storyboard in Resources */,
 				E1AB53D9208051270099D0F3 /* Assets.xcassets in Resources */,
+				E1AB53ED208061930099D0F3 /* globe-grid.png in Resources */,
 				E1AB53D7208051260099D0F3 /* Main.storyboard in Resources */,
+				E1AB53E7208059680099D0F3 /* Calendar-25.png in Resources */,
+				E1AB53E6208059680099D0F3 /* Home-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1AB53D4208051260099D0F3 /* ViewController.swift in Sources */,
 				E1AB53D2208051260099D0F3 /* AppDelegate.swift in Sources */,
+				E1AB53E920805DE40099D0F3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
